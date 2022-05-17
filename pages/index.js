@@ -94,14 +94,14 @@ const Page = () => {
                         </Link>
                     </ListItem>
                     <ListItem>
-                        <Link href='https://www.instagram.com/zordievsz/'>
+                        <Link href='https://www.instagram.com/zordievsz/' target='_blank'>
                             <Button colorScheme='facebook' variant='ghost' leftIcon={<Icon as={IoLogoInstagram} />}>
                                 @zordievsz
                             </Button>
                         </Link>
                     </ListItem>
                     <ListItem>
-                        <Link href='https://www.linkedin.com/in/scheva-pratama-889831213/'>
+                        <Link href='https://www.linkedin.com/in/scheva-pratama-889831213/' target='_blank'>
                             <Button colorScheme='facebook' variant='ghost' leftIcon={<Icon as={IoLogoLinkedin} />}>
                                 Scheva Pratama
                             </Button>
