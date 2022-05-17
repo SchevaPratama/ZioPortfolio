@@ -13,12 +13,12 @@ const Works = () => {
 
             <SimpleGrid column={[1, 1, 2]} gap={6}>
                 <Section>
-                    <WorkGridItem id='tulung' title='Tulung' thumbnail={tulungThumbnail}>
+                    <WorkGridItem id='https://play.google.com/store/apps/details?id=com.pixeldev.tulung&hl=en_US&gl=US' title='Tulung' thumbnail={tulungThumbnail}>
                         App for asking and giving help for PT. Antropos Digital Indonesia
                     </WorkGridItem>
                 </Section>
                 <Section>
-                    <WorkGridItem id='washeng' title='Washeng' thumbnail={washengThumbnail}>
+                    <WorkGridItem id='https://play.google.com/store/apps/details?id=com.washeng.transporter_dev&hl=en_US&gl=US' title='Washeng' thumbnail={washengThumbnail}>
                         Shipment app for PT. Washeng Keke Mandiri
                     </WorkGridItem>
                 </Section>
