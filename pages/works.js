@@ -3,6 +3,7 @@ import Section from "../components/section";
 import { WorkGridItem } from "../components/grid-item";
 import tulungThumbnail from "../public/images/tulung.jpg"
 import washengThumbnail from "../public/images/washeng.jpg"
+import enisanThumbnail from "../public/images/enisan.png"
 
 const Works = () => {
     return (
@@ -20,6 +21,11 @@ const Works = () => {
                 <Section>
                     <WorkGridItem id='https://play.google.com/store/apps/details?id=com.washeng.transporter_dev&hl=en_US&gl=US' title='Washeng' thumbnail={washengThumbnail}>
                         Shipment app for PT. Washeng Keke Mandiri
+                    </WorkGridItem>
+                </Section>
+                <Section>
+                    <WorkGridItem id='https://enisan.id/' title='Enisan' thumbnail={enisanThumbnail}>
+                        Website that saves the memories with our beloved ones that has passed away
                     </WorkGridItem>
                 </Section>
             </SimpleGrid>
